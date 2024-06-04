@@ -1,27 +1,39 @@
-# Backoffice
+#Employee Project# Deskripsi Singkat Proyek "Employee" adalah aplikasi manajemen data karyawan yang menyimpan informasi seperti “username”, “firstName”, “lastName”, “email”, “birthDate”, “basicSalary”, “status”, “group”, dan “description”.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.2.
+Fitur-fitur Utama Form Login: Pengguna dapat login menggunakan username "admin" dan password "admin" (tanpa tanda petik). Jika data login salah, pengguna tidak bisa masuk. Jika login berhasil, pengguna akan diarahkan ke menu utama. Button Signup: Hanya tampilan pemanis, belum berfungsi.
 
-## Development server
+Menu Utama: Search: Untuk mencari data karyawan dapat memasukkan nama / username yang di inginkan.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Add Employee: Menambahkan data karyawan baru.
 
-## Code scaffolding
+Logout: Keluar dari aplikasi.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Darkmode hanya penggembira, belum berfungsi
 
-## Build
+Tabel Data Karyawan: Menampilkan data karyawan dengan kolom “username”, “firstName”, “lastName”, “email”, “birthDate”, “basicSalary”, “status”, “group”, dan “description”. Kolom “username”, “firstName”, dapat diurutkan dari A-Z / Z-A dan “basicSalary” dapat diurutkan dari yang terkecil hingga terbesar, dengan mengklik judul kolom tersebut.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Detail karyawan: klik kolom karyawan untuk menapilkan detail.
 
-## Running unit tests
+Delete: Klik tombol "Delete" pada kolom "Action" data karyawan untuk menghapus data yg tidak di inginkan.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Edit: Klik tombol "Edit" pada kolom "Action" data karyawan untuk mengedit informasi.
 
-## Running end-to-end tests
+Pagination: Gunakan tombol navigasi halaman di bagian bawah tabel untuk berpindah halaman.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Cara Instalasi Clone Repository: Clone repository proyek dari GitHub. open terminal cmd/bash Copy code git clone https://github.com/SitumorangIran/employee.git Navigasi ke Direktori Proyek: Pindah ke direktori proyek yang telah di-clone. bash Copy code cd employee Instalasi Dependencies: Install dependencies proyek menggunakan npm. bash Copy code npm install Jalankan Aplikasi: Jalankan aplikasi Angular. bash Copy code ng serve Akses Aplikasi: Buka browser dan akses aplikasi di http://localhost:4200.
 
-## Further help
+#Cara Penggunaan# Login:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Buka aplikasi di browser. Masukkan username (admin) dan password (admin) yang benar, tanpa tanda (). Klik tombol login. Jika data benar, Anda akan diarahkan ke menu utama. Menu Utama:
+
+Search: Ketikkan kata kunci di kotak pencarian untuk mencari data karyawan. Add Employee: Klik tombol "Add Employee" untuk menambahkan data karyawan baru. Isi form yang muncul dan simpan. Logout: Klik tombol "Logout" di header untuk keluar dari aplikasi. Tabel Data Karyawan:
+
+Data karyawan akan ditampilkan dalam tabel. Anda bisa mengurutkan data berdasarkan kolom “username”, “firstName”, dan “basicSalary” dengan mengklik header kolom dan mengklik kolom yg di inginkan untuk menmpilkan detail karyawan.
+
+Delete: Klik tombol "Delete" pada kolom "Action" data karyawan untuk menghapus data yg tidak di inginkan.
+
+Edit: Klik tombol "Edit" pada kolom "Action" data karyawan untuk mengedit informasi.
+
+Pagination: Gunakan tombol navigasi halaman di bagian bawah tabel untuk berpindah halaman.
+
+NB : Proyek ini menggunakan Angular versi 16.2. Pastikan Anda telah menginstal Angular CLI dengan versi yang sesuai.
